@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  #Set Up Root page
+  root "movies#index"
+  
   get 'reviews/index'
 
   get 'reviews/show'
